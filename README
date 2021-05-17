@@ -1,3 +1,16 @@
+## bzip2-divsufsort
+
+confirmed [bzip2-tests](https://sourceware.org/git/?p=bzip2-tests.git;a=summary) are still passing.
+
+### references
+
+- http://wpage.cocolog-nifty.com/wp/2007/09/bzip2_c99f.html
+- https://web.archive.org/web/20160916081816/http://homepage3.nifty.com/wpage/software/blocksort.c.diff.gz
+- Refered https://code.google.com/archive/p/jbzip2/ to update from libdivsufsort-1.2.1 equiv to libdivsufsort-1.2.3 equiv
+
+below is original readme.
+
+----
 
 This is the README for bzip2/libzip2.
 This version is fully compatible with the previous public releases.
