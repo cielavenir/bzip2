@@ -1490,7 +1490,7 @@ divsufsort(const UChar *T, Int32 *SA, Int32 *ftab, Int32 n) {
   Int32 m;
 
   if(n == 0) { return; }
-  else if(n == 1) { SA[0] = T[0]; return; }
+  else if(n == 1) { SA[0] = 0/*T[0]*/; return; }
 
   m = sort_typeBstar(T, SA, bucket_A, ftab, n);
   if(0 < m) { construct_SA(T, SA, bucket_A, ftab, n, m); }
